@@ -1,7 +1,8 @@
 import { Head } from "./head";
 
 import Navbar from "@/components/navbar";
-import LanguageTab from '@/pages/Tabs/LanguageTab'
+import LanguagesTab from '@/pages/LanguagesTab/LanguagesTab'
+import CardsTab from '@/pages/CardsTab/cardsTab'
 
 export default function DefaultLayout({
   children,
@@ -9,10 +10,11 @@ export default function DefaultLayout({
   children: React.ReactNode;
 }) {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+    <main className="min-h-screen flex-col justify-center bg-gradient-to-br from-blue-50 to-indigo-100">
       <Head />
       <Navbar />
-      <LanguageTab />
+      <LanguagesTab />
+      <CardsTab />
       {children}
     </main>
   );
