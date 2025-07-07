@@ -15,7 +15,7 @@ export default function App() {
                         <div className="grid md:grid-cols-2 gap-6">
                             <div>
                                 <h4 className="font-semibold text-success-600 mb-3 flex items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="w-5 h-5 mr-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5 mr-2">
                                         <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14">
                                         </path>
                                         <path d="m9 11 3 3L22 4">
@@ -24,7 +24,7 @@ export default function App() {
                                     Advantages</h4>
                                 <ul className="space-y-2">
                                     <li className="flex items-start">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="w-4 h-4 text-success-500 mr-2 mt-0.5 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 text-success-500 mr-2 mt-0.5 flex-shrink-0">
                                             <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14">
                                             </path>
                                             <path d="m9 11 3 3L22 4">
@@ -34,7 +34,7 @@ export default function App() {
                                             Fast performance</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="w-4 h-4 text-success-500 mr-2 mt-0.5 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 text-success-500 mr-2 mt-0.5 flex-shrink-0">
                                             <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14">
                                             </path>
                                             <path d="m9 11 3 3L22 4">
@@ -44,7 +44,7 @@ export default function App() {
                                             Low resource usage</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="w-4 h-4 text-success-500 mr-2 mt-0.5 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 text-success-500 mr-2 mt-0.5 flex-shrink-0">
                                             <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14">
                                             </path>
                                             <path d="m9 11 3 3L22 4">
@@ -57,7 +57,7 @@ export default function App() {
                             </div>
                             <div>
                                 <h4 className="font-semibold text-danger-600 mb-3 flex items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="w-5 h-5 mr-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5 mr-2">
                                         <circle cx="12" cy="12" r="10">
                                         </circle>
                                         <path d="m15 9-6 6">
@@ -68,7 +68,7 @@ export default function App() {
                                     Disadvantages</h4>
                                 <ul className="space-y-2">
                                     <li className="flex items-start">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="w-4 h-4 text-danger-500 mr-2 mt-0.5 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 text-danger-500 mr-2 mt-0.5 flex-shrink-0">
                                             <circle cx="12" cy="12" r="10">
                                             </circle>
                                             <path d="m15 9-6 6">
@@ -80,7 +80,7 @@ export default function App() {
                                             Limited security</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="w-4 h-4 text-danger-500 mr-2 mt-0.5 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 text-danger-500 mr-2 mt-0.5 flex-shrink-0">
                                             <circle cx="12" cy="12" r="10">
                                             </circle>
                                             <path d="m15 9-6 6">
@@ -92,7 +92,7 @@ export default function App() {
                                             No application awareness</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="w-4 h-4 text-danger-500 mr-2 mt-0.5 flex-shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 text-danger-500 mr-2 mt-0.5 flex-shrink-0">
                                             <circle cx="12" cy="12" r="10">
                                             </circle>
                                             <path d="m15 9-6 6">
@@ -117,7 +117,7 @@ export default function App() {
                                 <span className="text-sm text-gray-700">
                                     Traffic arrives at firewall</span>
                             </div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="w-6 h-6 text-primary-500 mx-auto">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 text-primary-500 mx-auto">
                                 <path d="M5 12h14">
                                 </path>
                                 <path d="m12 5 7 7-7 7">
@@ -128,14 +128,14 @@ export default function App() {
                                     2</div>
                                 <span className="text-sm text-gray-700">Firewall analyzes traffic</span>
                             </div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="w-6 h-6 text-primary-500 mx-auto">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 text-primary-500 mx-auto">
                                 <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path>
                             </svg>
                             <div className="flex items-center space-x-3">
                                 <div className="w-8 h-8 bg-primary-500 rounded-full flex items-center justify-center text-white text-sm font-bold">3</div>
                                 <span className="text-sm text-gray-700">Decision made based on rules</span>
                             </div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="w-6 h-6 text-primary-500 mx-auto">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 text-primary-500 mx-auto">
                                 <path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path>
                             </svg>
                             <div className="flex items-center space-x-3">
