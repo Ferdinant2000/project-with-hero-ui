@@ -1,7 +1,7 @@
 import { Tabs, Tab } from "@heroui/react";
 import FirewallBasics from '@/pages/CardsTab/firewall-basics/UnderstandingFirewalls'
 import InteractiveSlider from '@/pages/CardsTab/interactive-slider/InteractiveSliderTitle'
-import CommonFirewallErrorsAndSolutions from '@/pages/CardsTab/common-errors/CommonFirewallErrors&Solutions'
+import CommonFirewallErrorsAndSolutions from '@/pages/CardsTab/common-errors/CommonFirewallErrorsAndSolutions'
 export default function App() {
   return (
     <>
@@ -14,10 +14,10 @@ export default function App() {
             <InteractiveSlider />
           </Tab>
           <Tab key="errors" title="Common Errors" >
-          <CommonFirewallErrorsAndSolutions />
+            <CommonFirewallErrorsAndSolutions />
           </Tab>
-      </Tabs>
-    </div >
+        </Tabs>
+      </div >
     </>
   );
 }
