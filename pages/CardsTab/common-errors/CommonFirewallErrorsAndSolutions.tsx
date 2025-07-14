@@ -4,17 +4,11 @@ import { useState } from "react";
 
 import ErrorsCards from "./error-cards/Cards";
 import ErrorsContainer from "./errors-container/Container";
-import firewallDataArray from "./errors-container/Data-Container"; // для отладки
+// для отладки
 
 export default function CommonFirewallErrorsAndSolutions() {
   // ✅ selectedId должен быть строкой, т.к. id в данных — строки
   const [selectedId, setSelectedId] = useState<string>("1"); // или '1', '2', ..., '6'
-
-  console.log("selectedId =", selectedId);
-  console.log(
-    "data found =",
-    firewallDataArray.find((item) => item.id === selectedId),
-  ); // сравнение строк
 
   return (
     <>
