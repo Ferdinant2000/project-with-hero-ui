@@ -1,8 +1,8 @@
 import { Head } from "./head";
 
 import Navbar from "@/components/ui/navbar";
-import LanguagesTab from '@/components/ui/LanguagesTab'
-import CardsTab from '@/components/ui/cardsTab'
+import LanguagesTab from "@/components/ui/LanguagesTab";
+import CardsTab from "@/components/ui/cardsTab";
 
 export default function DefaultLayout({
   children,
@@ -14,8 +14,8 @@ export default function DefaultLayout({
       <Head />
       <Navbar />
       <div className="mx-auto px-[16px] py-[32px] max-w-4xl">
-      <LanguagesTab />
-      <CardsTab />
+        <LanguagesTab />
+        <CardsTab />
       </div>
       {children}
     </main>
